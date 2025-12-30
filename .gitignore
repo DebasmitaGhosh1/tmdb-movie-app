@@ -1,0 +1,17 @@
+# Local configuration
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Build files
+build/
+.gradle/
+
+# APK / AAB
+*.apk
+*.aab
+
+# Logs
+*.log
