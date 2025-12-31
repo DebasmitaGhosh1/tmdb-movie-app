@@ -18,6 +18,7 @@ class MovieDetailViewModel(
     val director = _director.asStateFlow()
 
     fun loadMovieDetails(movieId: Int) {
+        //--
         viewModelScope.launch {
             val details = repository.getMovieDetails(movieId)
             _runtime.value = formatRuntime(details.runtime)
